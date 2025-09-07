@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock - Eva Diaz</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.0/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -17,22 +19,22 @@
           <option value="tokyo">Lisbon</option>
         </select>
       </form>
-      <div class="city">
+      <div class="city" id="paris">
         <div>
           <h2>Paris</h2>
-          <div class="date">7th Septermber 2025</div>
+          <div class="date" id="date-paris"></div>
         </div>
         <div>
-          <div class="time">13:32</div>
+          <div class="time" id="time-paris"></div>
         </div>
       </div>
-      <div class="city">
+      <div class="city" id="berlin">
         <div>
           <h2>Berlin</h2>
-          <div class="date">7th Septermber 2025</div>
+          <div class="date" id="date-berlin"></div>
         </div>
         <div>
-          <div class="time">13:32</div>
+          <div class="time" id="time-berlin"></div>
         </div>
       </div>
     </div>
@@ -48,6 +50,6 @@
         Netifly
       </a>
     </footer>
-    <script href="src/index.js"></script>
+    <script src="src/index.js"></script>
   </body>
 </html>
