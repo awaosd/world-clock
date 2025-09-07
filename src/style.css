@@ -1,11 +1,49 @@
+body {
+  background: #a2a8d3;
+}
+.container {
+  background: white;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.42);
+  max-width: 600px;
+  padding: 10px;
+}
 h1 {
   text-align: center;
   font-size: 50px;
 }
 footer {
   text-align: center;
-  color: grey;
+  color: black;
+  padding: 15px;
 }
 a {
   color: darkorchid;
+}
+select {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  background: darkgray;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed gray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.city:last-child {
+  border-bottom: none;
+}
+.time {
+  margin-top: 25px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.date {
+  margin-top: -20px;
+  color: gray;
 }
