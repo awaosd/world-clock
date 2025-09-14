@@ -12,29 +12,40 @@
     <div class="container">
       <h1>World Clock</h1>
       <form>
-        <select>
+        <select id="button">
           <option value="">Choose a city</option>
-          <option value="madrid">Madrid</option>
-          <option value="london">London</option>
-          <option value="tokyo">Lisbon</option>
+          <option value="America/New_York">New York</option>
+          <option value="Europe/London">London</option>
+          <option value="Asia/Tokyo">Tokyo</option>
         </select>
       </form>
-      <div class="city" id="paris">
-        <div>
-          <h2>Paris</h2>
-          <div class="date" id="date-paris"></div>
+      <div id="cities">
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris</h2>
+            <div class="date" id="date-paris"></div>
+          </div>
+          <div>
+            <div class="time" id="time-paris"></div>
+          </div>
         </div>
-        <div>
-          <div class="time" id="time-paris"></div>
+        <div class="city" id="hongkong">
+          <div>
+            <h2>Hong Kong</h2>
+            <div class="date" id="date-hongkong"></div>
+          </div>
+          <div>
+            <div class="time" id="time-hongkong"></div>
+          </div>
         </div>
-      </div>
-      <div class="city" id="berlin">
-        <div>
-          <h2>Berlin</h2>
-          <div class="date" id="date-berlin"></div>
-        </div>
-        <div>
-          <div class="time" id="time-berlin"></div>
+        <div class="city" id="alaska">
+          <div>
+            <h2>Alaska</h2>
+            <div class="date" id="date-alaska"></div>
+          </div>
+          <div>
+            <div class="time" id="time-alaska"></div>
+          </div>
         </div>
       </div>
     </div>
